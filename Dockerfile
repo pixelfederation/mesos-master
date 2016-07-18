@@ -1,15 +1,16 @@
 ################################################################################
-# mesos-master: 1.2.0
-# Date: 1/21/2016
-# Mesos Version: 0.26.0-0.2.145.ubuntu1404
+# mesos-master: 1.2.1
+# Date: 07/18/2016
+# Mesos Version: 0.28.2-2.0.27.ubuntu1404
 #
 # Description:
 # Mesos Master container. Mesos Version is tied to mesos-base container.
+# Former MAINTAINER Bob Killen / killen.bob@gmail.com / @mrbobbytables
 ################################################################################
 
-FROM mrbobbytables/mesos-base:1.2.0
+FROM pixelfederation/mesos-base:1.2.1
 
-MAINTAINER Bob Killen / killen.bob@gmail.com / @mrbobbytables
+MAINTAINER Milan Baran / mbaran@pixelfederation.com / @mbaran
 
 COPY ./skel /
 
